@@ -40,7 +40,7 @@ Traceback (most recent call last):
    ValueError: All arrays must be of the same length
 ```
 
-Change element `dic[1]` to `list("bird")` makes compile successfully due to list("bird") has the same length to other element.
+Change element `dic[1]` to `list("bird")` makes compile successfully due to `list("bird")` has the same length to other element.
 
 ## DataFrame reshape issue
 
@@ -52,7 +52,7 @@ For example:
 df = pd.DataFrame(np.random.randint(0, 100, 5).reshape(3, 4))
 ```
 
-Notice here that `np.random.randint()` is creating a list which length is 5, but `.reshape()` is assign it to reshape a irrational space which lenth is $3\times 4=12$
+Notice here that `np.random.randint()` is creating a list which length is 5, but `.reshape()` is assign it to reshape a irrational space which length is $3\times 4=12$
 
 ```console
 $ python ./PRACTICE_1_pandas_11.py
