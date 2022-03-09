@@ -60,3 +60,8 @@ $ python ./PRACTICE_1_pandas_11.py
 Traceback (most recent call last):
    ValueError: cannot reshape array of size 5 into shape (3,4)
 ```
+
+## LaTex issue
+
+Github doesn't support latex haha  
+[check this](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)
