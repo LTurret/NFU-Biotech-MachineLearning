@@ -1,17 +1,19 @@
 # Content
 
+[繁體中文](README.zh-TW.md) | English
+
 1. **pandas**
    1. [Create `Series` object](./pandas/PRACTICE_1_pandas_01.py)
-   2. [Indexing](./pandas/PRACTICE_1_pandas_02.py)
-   3. [Create with `Dictionary`](./pandas/PRACTICE_1_pandas_03.py)
+   2. [Array indexing](./pandas/PRACTICE_1_pandas_02.py)
+   3. [Create `Series` object with `Dictionary`](./pandas/PRACTICE_1_pandas_03.py)
    4. [Replace element](./pandas/PRACTICE_1_pandas_04.py)
    5. [`drop()`](./pandas/PRACTICE_1_pandas_05.py)
    6. [`append()`](./pandas/PRACTICE_1_pandas_06.py)
-   7. [Using `Series` functions to statistics](./pandas/PRACTICE_1_pandas_07.py)
-   8. [Filter with `Series` syntax](./pandas/PRACTICE_1_pandas_08.py)
-   9. [Sort with `Series` functions](./pandas/PRACTICE_1_pandas_09.py)
-   10. [Create DataFrame with Dictionary](./pandas/PRACTICE_1_pandas_10.py)
-   11. [Reshape DataFrame](./pandas/PRACTICE_1_pandas_11.py)
+   7. [Using `Series` functions to data statistics](./pandas/PRACTICE_1_pandas_07.py)
+   8. [Filter data with `Series` syntax](./pandas/PRACTICE_1_pandas_08.py)
+   9. [Sort data with `Series` functions](./pandas/PRACTICE_1_pandas_09.py)
+   10. [Create `DataFrame` object with `Dictionary`](./pandas/PRACTICE_1_pandas_10.py)
+   11. [Reshape `DataFrame` spaces](./pandas/PRACTICE_1_pandas_11.py)
 
 ## Troubleshooting
 
