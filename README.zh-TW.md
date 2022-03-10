@@ -12,5 +12,5 @@
    7. [使用 `Series` 函式統計資料](./src/1.pandas/PRACTICE_1_pandas_07.py)
    8. [使用 `Series` 語法過濾資料](./src/1.pandas/PRACTICE_1_pandas_08.py)
    9. [使用 `Series` 函式排序資料](./src/1.pandas/PRACTICE_1_pandas_09.py)
-   10. [使用 `字典` 建立 `DataFrame` 物件](./pandas/PRACTICE_1_pandas_10.py)
+   10. [使用 `字典` 建立 `DataFrame` 物件](./src/1.pandas/PRACTICE_1_pandas_10.py)
    11. [`DataFrame` 空間整形](./src/1.pandas/PRACTICE_1_pandas_11.py)
