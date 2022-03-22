@@ -1,7 +1,7 @@
 # MachineLearning Practices
 
 ![anna](./image/Anna.jpg)
-生科一優 41047320 黃柏菻
+Biotechnology class one of first grade, 41047320
 
 ## Content
 
