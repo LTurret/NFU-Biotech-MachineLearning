@@ -1,4 +1,3 @@
-from re import M
 import numpy as np
 import pandas as pd
 
@@ -10,4 +9,8 @@ dic = {
     "E": np.arange(41, 51)
 }
 
-df = 
+df = pd.DataFrame(dic)
+
+print(df)
+print(df.head(3)) # Print the first three columns of content
+print(df.tail(3)) # Print the end three columns of content
