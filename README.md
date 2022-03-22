@@ -18,6 +18,10 @@
    9. [Sort data with `Series` functions](./src/1.pandas/PRACTICE_1_pandas_09.py)
    10. [Create `DataFrame` object with `Dictionary`](./src/1.pandas/PRACTICE_1_pandas_10.py)
    11. [Reshape `DataFrame` spaces](./src/1.pandas/PRACTICE_1_pandas_11.py)
+2. **nnumpy
+    1. [Create `DataFrame` and create with custom index indent](./src/2.numpy/PRACTICE_2_numpy_1.py)
+    2. [`DataFrame` exhibition manipulations-1](./src/2.numpy/PRACTICE_2_numpy_2.py)
+    3. [`DataFrame` exhibition manipulations-2](./src/2.numpy/PRACTICE_2_numpy_3.py)
 
 ## Troubleshooting
 
