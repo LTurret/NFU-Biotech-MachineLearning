@@ -23,6 +23,8 @@ Biotechnology class one of first grade, 41047320
     1. [Create `DataFrame` and create with custom index indent](./src/2.numpy/PRACTICE_2_numpy_01.py)
     2. [`DataFrame` exhibition manipulations-1](./src/2.numpy/PRACTICE_2_numpy_02.py)
     3. [`DataFrame` exhibition manipulations-2](./src/2.numpy/PRACTICE_2_numpy_03.py)
+3. **Linear Regression**
+   1. [Predict heights](./src/3.LinearRegression/PRACTICE_3_LR_01.py)
 
 ## Troubleshooting
 
