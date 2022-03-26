@@ -24,14 +24,15 @@ Biotechnology class one of first grade, 41047320
     2. [`DataFrame` exhibition manipulations-1](./src/2.numpy/PRACTICE_2_numpy_02.py)
     3. [`DataFrame` exhibition manipulations-2](./src/2.numpy/PRACTICE_2_numpy_03.py)
 3. **Linear Regression**
-   1. [Predict heights](./src/3.LinearRegression/PRACTICE_3_LR_01.py)
+   1. [Predict heights](./src/3.LinearRegression/PRACTICE_3_LR_01.ipynb)
 
 ## Troubleshooting
 
    1. File name issue
    2. DataFrame length issue
    3. DataFrame reshape issue
-   4. LaTex issue
+   4. Linear regression value errors
+   5. LaTex issue
 
 ### File name issue
 
