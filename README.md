@@ -111,8 +111,16 @@ Second code: _plotting the line_
 plt.plot(test_x, pred, color="r")
 ```
 
+- Problems 1:
+
 ```console
 ValueError: x and y must have same first dimension, but have shapes (3,) and (1,)
+```
+
+- Problems 2:
+
+```console
+InvalidIndexError: (slice(None, None, None), None)
 ```
 
 ### LaTex issue
