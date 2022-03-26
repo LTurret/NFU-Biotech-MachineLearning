@@ -81,7 +81,44 @@ Traceback (most recent call last):
    ValueError: cannot reshape array of size 5 into shape (3,4)
 ```
 
+### Linear regression value errors
+
+When plotting graph with `test_x` versus `pred`, the graph should plot line with the three dots:
+[1.70, 65.15], [1.75, 68.30], [1.47, 50.63]
+
+But it is probably due to there are different data type, `DataFrame` seems like does not match well with `ndarray`
+
+Here's detail: _defining the variables_
+
+```py
+pred = model.predict(test_x)
+score = mean_squared_error(pred, test_y)
+print(f"{test_x}\n{pred}")
+```
+
+```console
+    Height
+9     1.70
+11    1.75
+0     1.47
+[65.14531356 68.30189952 50.62501816]
+```
+
+Second code: _plotting the line_
+
+```py
+plt.plot(test_x, pred, color="r")
+```
+
+```console
+ValueError: x and y must have same first dimension, but have shapes (3,) and (1,)
+```
+
 ### LaTex issue
 
 Github doesn't support latex haha  
 [check this](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)
+
+## Documentations
+
+- [相關程度](http://amebse.nchu.edu.tw/new_page_517.htm)
