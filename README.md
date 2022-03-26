@@ -24,7 +24,8 @@ Biotechnology class one of first grade, 41047320
     2. [`DataFrame` exhibition manipulations-1](./src/2.numpy/PRACTICE_2_numpy_02.py)
     3. [`DataFrame` exhibition manipulations-2](./src/2.numpy/PRACTICE_2_numpy_03.py)
 3. **Linear Regression**
-   1. [Predict heights](./src/3.LinearRegression/PRACTICE_3_LR_01.ipynb)
+   1. [Linear Regression practice](./src/3.LinearRegression/PRACTICE_3_LR_01.ipynb)
+   2. [Linear Regression implement](./src/3.LinearRegression/PRACTICE_3_LR_02.ipynb)
 
 ## Troubleshooting
 
@@ -36,10 +37,14 @@ Biotechnology class one of first grade, 41047320
 
 ### File name issue
 
+---
+
 Don't ever name your file to `pandas.py`  
 exception occoured with a mystery faces
 
 ### DataFrame length issue
+
+---
 
 When creating DataFrame with Dictionary, All arrays must be of the same length.  
 
@@ -65,6 +70,8 @@ Change element `dic[1]` to `list("bird")` makes compile successfully due to `lis
 
 ### DataFrame reshape issue
 
+---
+
 `pd.reshape()` makes user specific DataFrame size.
 
 For example:
@@ -83,6 +90,8 @@ Traceback (most recent call last):
 ```
 
 ### Linear regression value errors
+
+---
 
 When plotting graph with `test_x` versus `pred`, the graph should plot line with the three dots:
 [1.70, 65.15], [1.75, 68.30], [1.47, 50.63]
@@ -124,6 +133,8 @@ InvalidIndexError: (slice(None, None, None), None)
 ```
 
 ### LaTex issue
+
+---
 
 Github doesn't support latex haha  
 [check this](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)
