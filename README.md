@@ -141,4 +141,6 @@ Github doesn't support latex haha
 
 ## Documentations
 
-- [相關程度](http://amebse.nchu.edu.tw/new_page_517.htm)
+- Relative coefficient
+  - [相關程度](http://amebse.nchu.edu.tw/new_page_517.htm)
+  - [書面資料](./docs/Relative%20coefficient)
