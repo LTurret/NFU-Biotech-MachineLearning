@@ -20,10 +20,10 @@ Biotechnology class one of first grade, 41047320
    10. [Create `DataFrame` object with `Dictionary`](./src/1.pandas/PRACTICE_1_pandas_10.py)
    11. [Reshape `DataFrame` spaces](./src/1.pandas/PRACTICE_1_pandas_11.py)
 2. **numpy**
-    1. [Create a m*n matrix using `np.random()`]()
-    2. [Create `DataFrame` and create with custom index indent](./src/2.numpy/PRACTICE_2_numpy_01.py)
-    3. [`DataFrame` exhibition manipulations-1, DF's details](./src/2.numpy/PRACTICE_2_numpy_02.py)
-    4. [Create `DataFrame` with `Dictionary` then indexing with `head()` and `tail()`](./src/2.numpy/PRACTICE_2_numpy_03.py)  
+    1. [Create a m*n matrix using `np.random()`](./src/2.numpy/PRACTICE_2_numpy_01.py)
+    2. [Create `DataFrame` and create with custom index indent](./src/2.numpy/PRACTICE_2_numpy_02.py)
+    3. [`DataFrame` exhibition manipulations-1, DF's details](./src/2.numpy/PRACTICE_2_numpy_03.py)
+    4. [Create `DataFrame` with `Dictionary` then indexing with `head()` and `tail()`](./src/2.numpy/PRACTICE_2_numpy_04.py)  
 
 - **Supervised learning**
   - **Linear Regression**
