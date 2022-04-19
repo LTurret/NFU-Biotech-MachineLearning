@@ -9,7 +9,7 @@ Biotechnology class one of first grade, 41047320
 
 1. **pandas**
    1. [Create `Series` object](./src/1.pandas/PRACTICE_1_pandas_01.py)
-   2. [Array indexing](./src/1.pandas/PRACTICE_1_pandas_02.py)
+   2. [Series indexing](./src/1.pandas/PRACTICE_1_pandas_02.py)
    3. [Create `Series` object with `Dictionary`](./src/1.pandas/PRACTICE_1_pandas_03.py)
    4. [Replace element](./src/1.pandas/PRACTICE_1_pandas_04.py)
    5. [`drop()`](./src/1.pandas/PRACTICE_1_pandas_05.py)
@@ -20,11 +20,12 @@ Biotechnology class one of first grade, 41047320
    10. [Create `DataFrame` object with `Dictionary`](./src/1.pandas/PRACTICE_1_pandas_10.py)
    11. [Reshape `DataFrame` spaces](./src/1.pandas/PRACTICE_1_pandas_11.py)
 2. **numpy**
-    1. [Create `DataFrame` and create with custom index indent](./src/2.numpy/PRACTICE_2_numpy_01.py)
-    2. [`DataFrame` exhibition manipulations-1](./src/2.numpy/PRACTICE_2_numpy_02.py)
-    3. [`DataFrame` exhibition manipulations-2](./src/2.numpy/PRACTICE_2_numpy_03.py)  
+    1. [Create a m*n matrix using `np.random()`]()
+    2. [Create `DataFrame` and create with custom index indent](./src/2.numpy/PRACTICE_2_numpy_01.py)
+    3. [`DataFrame` exhibition manipulations-1, DF's details](./src/2.numpy/PRACTICE_2_numpy_02.py)
+    4. [Create `DataFrame` with `Dictionary` then indexing with `head()` and `tail()`](./src/2.numpy/PRACTICE_2_numpy_03.py)  
 
-- Supervised learning
+- **Supervised learning**
   - **Linear Regression**
       1. [Linear Regression practice](./src/3.LinearRegression/PRACTICE_3_LR_01.ipynb)
       2. [Linear Regression implement](./src/3.LinearRegression/PRACTICE_3_LR_02.ipynb)
