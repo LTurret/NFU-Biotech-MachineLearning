@@ -3,9 +3,11 @@
 ![anna](./image/Anna.jpg)
 Biotechnology class one of first grade, 41047320
 
-## Content
+## Language
 
 [繁體中文](README.zh-TW.md) | English
+
+## Content
 
 1. **pandas**
    1. [Create `Series` object](./src/1.pandas/PRACTICE_1_pandas_01.py)
@@ -20,10 +22,10 @@ Biotechnology class one of first grade, 41047320
    10. [Create `DataFrame` object with `Dictionary`](./src/1.pandas/PRACTICE_1_pandas_10.py)
    11. [Reshape `DataFrame` spaces](./src/1.pandas/PRACTICE_1_pandas_11.py)
 2. **numpy**
-    1. [Create a m*n matrix using `np.random()`](./src/2.numpy/PRACTICE_2_numpy_01.py)
-    2. [Create `DataFrame` and create with custom index indent](./src/2.numpy/PRACTICE_2_numpy_02.py)
-    3. [`DataFrame` exhibition manipulations-1, DF's details](./src/2.numpy/PRACTICE_2_numpy_03.py)
-    4. [Create `DataFrame` with `Dictionary` then indexing with `head()` and `tail()`](./src/2.numpy/PRACTICE_2_numpy_04.py)  
+    1. [Create a m*n matrix using `np.random()`](./src/2.numpy/PRACTICE_2_numpy_01.ipynb)
+    2. [Create `DataFrame` and create with custom index indent](./src/2.numpy/PRACTICE_2_numpy_02.ipynb)
+    3. [`DataFrame` exhibition manipulations-1, DF's details](./src/2.numpy/PRACTICE_2_numpy_03.ipynb)
+    4. [Create `DataFrame` with `Dictionary` then indexing with `head()` and `tail()`](./src/2.numpy/PRACTICE_2_numpy_04.ipynb)  
 
 - **Supervised learning**
   - **Linear Regression**
@@ -34,20 +36,20 @@ Biotechnology class one of first grade, 41047320
 
 ## Troubleshooting
 
-   1. File name issue
-   2. DataFrame length issue
-   3. DataFrame reshape issue
-   4. Linear regression value errors
-   5. LaTex issue
+- File name issue
+- DataFrame length issue
+- DataFrame reshape issue
+- Linear regression value errors
+- LaTex issue
 
 ### File name issue
 
-Don't ever name your file to `pandas.py`  
-exception occoured with a mystery faces
+> Don't ever name your file to `pandas.py`  
+> exception occoured with a mystery faces
 
 ### DataFrame length issue
 
-When creating DataFrame with Dictionary, All arrays must be of the same length.  
+> When creating DataFrame with Dictionary, All arrays must be of the same length.  
 
 For example:
 
@@ -71,7 +73,7 @@ Change element `dic[1]` to `list("bird")` makes compile successfully due to `lis
 
 ### DataFrame reshape issue
 
-`pd.reshape()` makes user specific DataFrame size.
+> `pd.reshape()` makes user specific DataFrame size.
 
 For example:
 
@@ -90,12 +92,11 @@ Traceback (most recent call last):
 
 ### Linear regression value errors
 
-When plotting graph with `test_x` versus `pred`, the graph should plot line with the three dots:
-[1.70, 65.15], [1.75, 68.30], [1.47, 50.63]
+> When plotting graph with `test_x` versus `pred`, the graph should plot line with the three dots:
+> [1.70, 65.15], [1.75, 68.30], [1.47, 50.63]
+>> But it is probably due to there are different data type, `DataFrame` seems like does not match well with `ndarray`
 
-But it is probably due to there are different data type, `DataFrame` seems like does not match well with `ndarray`
-
-Here's detail: _defining the variables_
+Here's detail: *defining the variables*
 
 ```py
 pred = model.predict(test_x)
@@ -111,7 +112,7 @@ print(f"{test_x}\n{pred}")
 [65.14531356 68.30189952 50.62501816]
 ```
 
-Second code: _plotting the line_
+Second code: *plotting the line*
 
 ```py
 plt.plot(test_x, pred, color="r")
@@ -131,7 +132,8 @@ InvalidIndexError: (slice(None, None, None), None)
 
 ### LaTex issue
 
-Github doesn't support latex haha  
+> Github doesn't support latex haha  
+
 [check this](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)
 
 ## Documentations
